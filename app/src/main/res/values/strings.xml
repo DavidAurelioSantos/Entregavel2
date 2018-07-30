@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Entregavel 2</string>
+
+    <string name="fragment_1">Receitas</string>
+    <string name="fragment_2">Sobre</string>
+    <string name="name">David Santos</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+    <item android:id="@+id/fragmento1"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Receitas" />
+
+    <item android:id="@+id/fragmento2"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="Sobre" />
+</group>
+    </menu>
