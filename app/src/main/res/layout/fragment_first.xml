@@ -1,0 +1,64 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstFragment">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/include_toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="@string/fragment_1"
+        android:textSize="50sp"/>
+
+    <ImageButton
+        android:layout_marginLeft="5dp"
+        android:id="@+id/bifeacavalo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bifeacavalo"/>
+
+    <TextView
+        android:text="@string/bifeacavalo"
+        android:layout_width="250dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="-100dp"
+        android:layout_height="100dp" />
+
+    <ImageButton
+        android:layout_marginLeft="5dp"
+        android:id="@+id/bifeaparmegiana"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/bifeparmegiana"/>
+
+    <TextView
+        android:text="@string/bifeparmegiana"
+        android:layout_width="250dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="-100dp"
+        android:layout_height="100dp" />
+
+    <ImageButton
+        android:layout_marginLeft="5dp"
+        android:id="@+id/strogonoffcarne"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/strogonoffcarne"/>
+
+    <TextView
+        android:text="@string/strogonoffcarne"
+        android:layout_width="250dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="-100dp"
+        android:layout_height="100dp" />
+
+</LinearLayout>
